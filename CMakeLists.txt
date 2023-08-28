@@ -3,6 +3,10 @@ if(POLICY CMP0056) # added in CMake 3.2
   cmake_policy(SET CMP0056 NEW)
 endif()
 
+if(POLICY CMP0091) # added in CMake 3.14
+  cmake_policy(SET CMP0091 NEW)
+endif()
+
 project (xvc CXX C)
 
 include(GNUInstallDirs)

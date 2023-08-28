@@ -159,3 +159,5 @@ Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 
+Build/
+
